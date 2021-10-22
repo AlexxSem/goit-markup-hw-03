@@ -134,11 +134,14 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .header-logo {
   margin-right: 93px;
   display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-item:not(:last-child) {
@@ -146,10 +149,7 @@ body {
 }
 
 .menu-list {
-  padding-top: 32px;
-  padding-bottom: 32px;
   display: flex;
-  margin-right: 331px;
 }
 .menu-link {
   font-weight: 500;
@@ -157,6 +157,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--first-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .menu-link:hover,
@@ -169,8 +171,6 @@ body {
 }
 
 .contact-list {
-  padding-top: 32px;
-  padding-bottom: 32px;
   display: flex;
 }
 
@@ -184,6 +184,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-tel {
@@ -192,6 +194,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* ----------hero----------- */
@@ -374,16 +378,14 @@ body {
 }
 
 .filtres-btn:hover,
-.filtres-btn:focus {
+.filtres-btn:focus,
+.active-btn:hover,
+.active-btn:focus {
   color: var(--third-color);
   background-color: var(--accent-color);
 }
 
 .active-btn {
-  background-color: var(--accent-color);
-}
-
-.active-btn:active {
   color: var(--third-color);
   background-color: var(--accent-color);
 }
